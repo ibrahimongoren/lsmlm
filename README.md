@@ -64,7 +64,7 @@ The package page is at [RePEc / SSC (S459809)](https://ideas.repec.org/c/boc/boc
 net install lsmlm, from("https://raw.githubusercontent.com/<GITHUB_USERNAME>/lsmlm/main/") replace
 ```
 
-Replace `<GITHUB_USERNAME>` with the account that hosts the repository. To update later, run the same line again.
+Replace `ibrahimongoren` with the account that hosts the repository. To update later, run the same line again.
 
 ### Manually
 
