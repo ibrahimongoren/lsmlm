@@ -61,7 +61,7 @@ The package page is at [RePEc / SSC (S459809)](https://ideas.repec.org/c/boc/boc
 ### From GitHub
 
 ```stata
-net install lsmlm, from("https://raw.githubusercontent.com/<GITHUB_USERNAME>/lsmlm/main/") replace
+net install lsmlm, from("https://raw.githubusercontent.com/ibrahimongoren/lsmlm/main/") replace
 ```
 
 Replace `ibrahimongoren` with the account that hosts the repository. To update later, run the same line again.
