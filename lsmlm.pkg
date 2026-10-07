@@ -1,0 +1,32 @@
+v 3
+d 'LSMLM': Lee-Strazicich minimum LM unit root test with structural breaks
+d
+d lsmlm performs the Lee-Strazicich minimum LM unit root test with zero, one,
+d or two endogenous structural breaks. Two deterministic models are available:
+d crash (level shift) and break (level and trend shift). breaks(0) gives the
+d Schmidt-Phillips no-break LM test. Critical values are interpolated over the
+d sample size and, for the trend-break model, over the break fraction(s). The
+d command runs on any tsset series and can be restricted to any sub-sample with
+d if / in.
+d
+d KW: unit root
+d KW: structural break
+d KW: Lee-Strazicich
+d KW: LM test
+d KW: Schmidt-Phillips
+d
+d Requires: Stata version 14.0
+d
+d The package ships an example dataset, lsmlm_oecd15.dta: relative per-capita
+d income for 15 OECD countries, 1870-1994, built from the Maddison Project
+d Database 2023 (Bolt and Van Zanden 2024), which is distributed under a
+d Creative Commons Attribution 4.0 International License.
+d
+d Distribution-Date: 20260722
+d
+d Author: Ibrahim Ongoren, Pamukkale University
+d Support: email ongorenibrahim78@gmail.com
+d
+f lsmlm.ado
+f lsmlm.sthlp
+f lsmlm_oecd15.dta

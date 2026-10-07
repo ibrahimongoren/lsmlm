@@ -1,0 +1,4 @@
+v 3
+d Ibrahim Ongoren -- Stata packages
+d
+p lsmlm  Lee-Strazicich minimum LM unit root test (0/1/2 breaks)
